@@ -49,7 +49,7 @@ export default function ContactPage() {
           {profile.location}
         </p>
         <p className="mt-4 max-w-xl text-muted-foreground">
-          Open to developer and QA roles, especially at early-stage startups.
+          Open to developer and Sales roles, especially at early-stage startups.
           Feel free to reach out through any of the channels below.
         </p>
       </AnimatedSection>

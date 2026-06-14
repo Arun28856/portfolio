@@ -9,14 +9,7 @@ Personal portfolio site for Lakshman Arun P, targeting full-stack developer and 
 - [Framer Motion](https://www.framer.com/motion/) for scroll animations
 - [next-themes](https://github.com/pacocoursey/next-themes) for the dark/light theme toggle
 
-## Getting Started
 
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3003](http://localhost:3003) to view the site (the dev/start scripts are pinned to port 3003).
 
 ## Project Structure
 
