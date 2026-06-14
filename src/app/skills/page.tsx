@@ -3,7 +3,7 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 import { skills, whyHireMe } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Skills | Lakshman Arun P",
+  title: "Skills",
   description:
     "Technical skills, soft skills, and why Lakshman Arun P is a fit for startup teams.",
 };

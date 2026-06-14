@@ -4,7 +4,7 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 import { education, experience } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Experience | Lakshman Arun P",
+  title: "Experience",
   description: "Work experience and education for Lakshman Arun P.",
 };
 
