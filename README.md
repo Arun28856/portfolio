@@ -27,7 +27,6 @@ Open [http://localhost:3003](http://localhost:3003) to view the site (the dev/st
 
 ## Deployment
 
-Built for static/serverless hosting on [Vercel](https://vercel.com). After deploying:
+Live at [lakshmanarundev.vercel.app](https://lakshmanarundev.vercel.app/), deployed on Vercel. The production domain is set in `src/app/layout.tsx`, `src/app/sitemap.ts`, and `src/app/robots.ts` — update those if the domain changes.
 
-1. Update the placeholder domain (`https://lakshmanarun.dev`) in `src/app/layout.tsx`, `src/app/sitemap.ts`, and `src/app/robots.ts` to the real production URL.
-2. Re-run `npm run build` to confirm everything still builds cleanly.
+Built using **Claude Code**
