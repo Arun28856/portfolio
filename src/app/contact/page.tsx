@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Download, Mail, MapPin, Phone } from "lucide-react";
+import { CalendarDays, Download, Mail, MapPin, Phone } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { profile } from "@/lib/data";
@@ -33,6 +33,12 @@ const links = [
     value: "Arun28856",
     href: profile.github,
     icon: GithubIcon,
+  },
+  {
+    label: "Schedule a Call",
+    value: "15–30 min discussion",
+    href: profile.calendly,
+    icon: CalendarDays,
   },
 ];
 

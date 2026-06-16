@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Download, Mail } from "lucide-react";
+import { ArrowRight, CalendarDays, Download, Mail } from "lucide-react";
 import { AnimatedSection } from "@/components/AnimatedSection";
 import { highlights, profile } from "@/lib/data";
 
@@ -33,6 +33,15 @@ export default function Home() {
             Contact Me
             <Mail size={16} />
           </Link>
+          <a
+            href={profile.calendly}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
+          >
+            Book a Call
+            <CalendarDays size={16} />
+          </a>
           <a
             href={profile.resumeUrl}
             target="_blank"

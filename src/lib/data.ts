@@ -8,6 +8,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/lakshmanarunp/",
   github: "https://github.com/Arun28856",
   resumeUrl: "/resume/Lakshman-Arun-P-Resume.pdf",
+  calendly: "https://calendly.com/arunlakshman28/15-30-min-discussion",
 };
 
 export const highlights = [
