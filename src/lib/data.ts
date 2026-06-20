@@ -77,6 +77,25 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    name: "Startup Hiring RAG",
+    description:
+      "AI-powered retrieval-augmented generation system for startup job matching. Features a Next.js frontend, NestJS REST proxy, and a FastAPI embedding service using LangChain + ChromaDB. Runs llama-3.1-8b-instant via Groq for fast inference and all-MiniLM-L6-v2 locally via HuggingFace for embeddings.",
+    tags: [
+      "Next.js 14",
+      "NestJS",
+      "FastAPI",
+      "LangChain",
+      "ChromaDB",
+      "Groq",
+      "HuggingFace",
+      "Zustand",
+      "Framer Motion",
+      "Tailwind CSS",
+    ],
+    liveUrl: "https://frontend-production-9c5a6.up.railway.app/",
+    githubUrl: "https://github.com/Arun28856/startup-hiring-rag",
+  },
+  {
     name: "Ecommerce Platform",
     description:
       "A full-stack ecommerce application with separate buyer and seller experiences - buyers can browse and purchase products, while sellers manage their own product catalog, orders, and earnings.",
